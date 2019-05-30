@@ -2,6 +2,9 @@
   <img width="679" height="304" src="https://raw.githubusercontent.com/dangreco/rust-apple-photos/master/logo.png">
 </p>
 
+[![Latest version](https://img.shields.io/crates/v/rust-apple-photos.svg)](https://crates.io/crates/rust-apple-photos)
+[![License](https://img.shields.io/crates/l/rust-apple-photos.svg)](https://github.com/dangreco/rust-apple-photos/blob/master/LICENSE)
+
 A simple yet powerful library to interact with the SQLite database used by the Apple Photos app on macOS.
 ## Installation 
 Add the following to your Cargo.toml:
