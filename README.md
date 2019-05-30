@@ -6,11 +6,8 @@ A simple yet powerful library to interact with the SQLite database used by the A
 ## Installation 
 Add the following to your Cargo.toml:
 ```toml
-...
 [Dependencies]
-...
 rust-apple-photos = "0.1.0"
-...
 ```
 
 ## Basic Usage
