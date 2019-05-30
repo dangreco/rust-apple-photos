@@ -3,6 +3,8 @@ name = "rust-apple-photos"
 version = "0.1.0"
 authors = ["dangreco <dan.greco@live.com>"]
 edition = "2018"
+description = "A simple yet powerful library to interact with the SQLite database used by the Apple Photos app on macOS."
+license = "MIT"
 
 [dependencies]
 time = "0.1.42"
