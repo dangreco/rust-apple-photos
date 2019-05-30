@@ -1,5 +1,6 @@
 use crate::album::Album;
 use crate::album_version::AlbumVersion;
+use crate::face::Face;
 use crate::master::Master;
 use crate::person::Person;
 use rusqlite::Result;
@@ -56,5 +57,9 @@ impl ApplePhotos {
 
     pub fn get_people(&self) -> Result<Vec<Person>> {
         return self.query("SELECT * FROM RKPerson");
+    }
+
+    pub fn get_faces(&self) -> Result<Vec<Face>> {
+        return self.query("SELECT * FROM RKFace");
     }
 }

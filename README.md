@@ -54,7 +54,7 @@ There are a lot of models to implement to complete just the base layer of models
 - [ ] RKBookmark
 - [ ] RKCloudResource
 - [ ] RKCustomSortOrder
-- [ ] RKFace
+- [X] RKFace
 - [ ] RKFaceCrop
 - [ ] RKFaceGroup
 - [ ] RKFacePrint
