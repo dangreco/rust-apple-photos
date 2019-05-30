@@ -15,11 +15,11 @@ rust-apple-photos = "0.1.0"
 
 ## Basic Usage
 ```rust
-extern crate rust-apple-photos;
+extern crate rust_apple_photos;
 extern crate rusqlite;
 
-use rust-apple-photos::ApplePhotos;
-use rust-apple-photos::types::{ Album };
+use rust_apple_photos::ApplePhotos;
+use rust_apple_photos::types::{ Album };
 
 fn main() -> Result<()>
 {
@@ -74,7 +74,7 @@ There are a lot of models to implement to complete just the base layer of models
 - [ ] RKMoment
 - [ ] RKMomentCollection
 - [ ] RKMomentYear
-- [ ] RKPerson
+- [X] RKPerson
 - [ ] RKPersonInvalidMergeCandidatePerson
 - [ ] RKPersonMergeCandidatePerson
 - [ ] RKPersonRejectedFace
