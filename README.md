@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="679" height="304" src="https://raw.githubusercontent.com/dangreco/rust-apple-photos/master/logo.png">
+  <img width="100%" src="https://raw.githubusercontent.com/dangreco/rust-apple-photos/master/logo.png">
 </p>
 
 [![Latest version](https://img.shields.io/crates/v/rust-apple-photos.svg)](https://crates.io/crates/rust-apple-photos)
