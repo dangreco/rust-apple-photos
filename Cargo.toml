@@ -1,0 +1,11 @@
+[package]
+name = "rust-apple-photos"
+version = "0.1.0"
+authors = ["dangreco <dan.greco@live.com>"]
+edition = "2018"
+
+[dependencies]
+time = "0.1.42"
+    [dependencies.rusqlite]
+        version = "0.18.0"
+        features = ["blob"]
